@@ -13,13 +13,13 @@ body {
     align-items: center;
 }
 
-.questions-cont {
+.question-cont {
     margin: 10px;
     padding: 5px;
     width: 80vw;
     height: 10vh;
     background-color: darkgray;
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
 }
 
@@ -32,7 +32,7 @@ body {
     font-size: 50px;
 }
 
-.options-cont {
+.choices-cont {
     display: flex;
     justify-content: space-around;
     margin: 10px;
