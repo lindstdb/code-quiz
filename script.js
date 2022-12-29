@@ -7,37 +7,37 @@ var answer3 = document.querySelector(".answer3");
 var answer4 = document.querySelector(".answer4");
 var quizSection = document.querySelector(".quiz-section");
 var rightWrong = document.querySelector("#correct-or-incorrect");
-var initialsSection = document.querySelector(".initals-section");
+var initialsSection = document.querySelector(".top-performers");
 var submitButton = document.querySelector(".submit-btn");
 var highScoreSection = document.querySelector(".highscores-section");
 var viewScores = document.querySelector("#highscore");
 
 // Questions Array
-var question1 = ""
-var question2 = ""
-var question3 = ""
-var question4 = ""
+var question1 = "What is JavaScript?"
+var question2 = "Which of the following is correct about JavaScript?"
+var question3 = "Among the given statements, which statement defines closures in JavaScript?"
+var question4 = "Arrays in JavaScript are defined by which of the following statements?"
 var question5 = ""
 var questionsArray = [question1, question2, question3, question4, question5]
 
 // Answers
 var quizChoice1 = {
-    choice1: "",
-    choice2: "",
-    choice3: "",
-    choice4: "",
+    choice1: "JavaScript is an assembly language used to make the website interactive",
+    choice2: "JavaScript is a compiled language used to make the website interactive",
+    choice3: "JavaScript is a scripting language used to make the website interactive",
+    choice4: "None of the mentioned",
 }
 var quizChoice2 = {
-    choice1: "",
-    choice2: "",
-    choice3: "",
-    choice4: "",
+    choice1: "JavaScript is Assembly-language",
+    choice2: "JavaScript is an Object-Based language",
+    choice3: "JavaScript is an Object-Oriented language",
+    choice4: "JavaScript is a High-level language",
 }
 var quizChoice3 = {
-    choice1: "",
-    choice2: "",
-    choice3: "",
-    choice4: "",
+    choice1: "JavaScript is a function that is enclosed with references to its lexical environment",
+    choice2: "JavaScript is a function that is enclosed with references to its inner function scope",
+    choice3: "JavaScript is a function that is enclosed with the object to its inner function scope",
+    choice4: "None of the mentioned",
 }
 var quizChoice4 = {
     choice1: "",
@@ -82,8 +82,8 @@ function nextQuestion(){
         setTimeout (function() {quizSection.style.display = "none";
         initialsSection.style.display = "inline";
     },500);
-    setTimeout(function(){clearInterval(timeInterval)},500);
-    }else {
+        setTimeout(function(){clearInterval(timerInterval)},500);
+    } else {
         question.textContent = questionsArray[correctIndex];
         answer1.textContent = answersArray[correctIndex].choice1;
         answer2.textContent = answersArray[correctIndex].choice2;
