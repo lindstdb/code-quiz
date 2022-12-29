@@ -68,7 +68,7 @@ startQuizBtn.addEventListener("click", startTimer)
 
 // Hide Intro Page
 startQuizBtn.addEventListener("click", function(){
-    document.querySelector(".eagle").getElementsByClassName.display = "none";
+    document.querySelector(".eagle").style.display = "none";
     quizSection.style.display = "block";
 })
 
