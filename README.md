@@ -19,6 +19,6 @@ Website URL: https://lindstdb.github.io/code-quiz/
 
 
 ## Credits
-https://www.interviewbit.com/javascript-mcq/
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+-https://www.interviewbit.com/javascript-mcq/
+-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
