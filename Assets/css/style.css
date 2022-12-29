@@ -12,3 +12,74 @@ body {
 #timer {
     float: right;
 }
+
+#highscore:hover {
+    color: darkgoldenrod;
+}
+
+.eagle{
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.eagle h1 {
+    font-size: 80px;
+}
+
+.start-quiz-btn {
+    clear: both;
+    float: right;
+    margin: 30px;
+}
+
+.quiz-intro {
+    float: right;
+}
+
+.quiz-section {
+    margin-top: 95px;
+    display: none;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.btn {
+    display: block;
+    margin: 15px 0;
+    text-align: left;
+    background-color: goldenrod;
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    color: black;
+}
+
+.quiz {
+    display: none;
+}
+
+.top-performers {
+    display: none;
+}
+
+#initials:focus {
+    border: none;
+}
+
+.margin {
+    margin: 100px 30px;
+}
+
+.highscores-section {
+    display: none;
+}
+
+.highscore-btn {
+    display: inline;
+}
