@@ -1,83 +1,14 @@
 body {
-    padding: 0;
-    margin: 0; 
-    width: 100vw;
-    height: 100vw;
+    background-color: whitesmoke;
+    font-family: Quicksand;
 }
 
-.containers {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.header {
+    background-color: gold;
+    padding: 15px 50px;
+    font-weight: 700;
 }
 
-.question-cont {
-    margin: 10px;
-    padding: 5px;
-    width: 80vw;
-    height: 10vh;
-    background-color: darkgray;
-    font-size: xx-large;
-    text-align: center;
+#timer {
+    float: right;
 }
-
-.outcome {
-    margin: 10px;
-    padding: 5px;
-    width: 80vw;
-    height: 10vh;
-    text-align: center;
-    font-size: 50px;
-}
-
-.choices-cont {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    padding: 5px;
-    width: 80vw;
-    height:  20vh;
-    background-color: aquamarine;
-}
-
-.choice {
-    padding: 10px;
-    width: 15vw;
-    height: 10vh;
-    font-size: larger;
-    background-color: cornflowerblue;
-    border-radius: 25%;
-}
-
-.choice:hover {
-    background-color: darkorange;
-}
-
-.nav {
-    width: 80vw;
-    height: 10vh;
-    margin: 10px;
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    background-color: cadetblue;
-}
-
-.checkAnswer,.next {
-    width: 30vw;
-    height: 8vh;
-    padding:5px;
-    font-size: larger;
-}
-
-.checkAnswer {
-    background-color: aquamarine;
-}
-
-.next {
-    color: white;
-    background-color:black;
-}
-
