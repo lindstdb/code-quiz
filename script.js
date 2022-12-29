@@ -141,13 +141,13 @@ submitButton.addEventListener("click", function(event){
     event.preventDefault();
     newUser();
         initialsSection.style.display = "none";
-        document.querySelector(".highScoreSection").style.display = "block";
-        document.querySelector("user-scores").style.dsiplay = "block";
+        document.querySelector(".highscores-section").style.display = "block";
+        document.querySelector(".user-scores").style.dsiplay = "block";
 })
 
 // Local Storage Records
 function newUser() {
-    var userInitial = document.querySelector("#initials").ariaValueMax;
+    var userInitial = document.querySelector("#initials").value;
     if (userInitial === "") {
         userInitial = "anonymous";
     }
