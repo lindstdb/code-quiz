@@ -16,8 +16,8 @@ var viewScores = document.querySelector("#highscore");
 var question1 = "What is JavaScript?"
 var question2 = "Which of the following is correct about JavaScript?"
 var question3 = "Among the given statements, which statement defines closures in JavaScript?"
-var question4 = "Arrays in JavaScript are defined by which of the following statements?"
-var question5 = ""
+var question4 = "Upon encountering empty statements, what does the Javascript Interpreter do?"
+var question5 = "Which of the following methods can be used to display data in some form using Javascript?"
 var questionsArray = [question1, question2, question3, question4, question5]
 
 // Answers
@@ -40,16 +40,16 @@ var quizChoice3 = {
     choice4: "None of the mentioned",
 }
 var quizChoice4 = {
-    choice1: "",
-    choice2: "",
-    choice3: "",
-    choice4: "",
+    choice1: "Throws an error",
+    choice2: "Ignores the statements",
+    choice3: "Gives a warning",
+    choice4: "None of the above",
 }
 var quizChoice5 = {
-    choice1: "",
-    choice2: "",
-    choice3: "",
-    choice4: "",
+    choice1: "document.write()",
+    choice2: "console.log()",
+    choice3: "window.alert()",
+    choice4: "All of the above",
 }
 
 // Answer Array

@@ -4,7 +4,8 @@ body {
 }
 
 .header {
-    background-color: gold;
+    margin-top: 0px;
+    background-color:darkseagreen;
     padding: 15px 50px;
     font-weight: 700;
 }
@@ -14,7 +15,8 @@ body {
 }
 
 #highscore:hover {
-    color: darkgoldenrod;
+    cursor:pointer;
+    color:olive;
 }
 
 .eagle{
@@ -37,6 +39,7 @@ body {
 }
 
 .quiz-section {
+    margin-left: 600px;
     margin-top: 95px;
     display: none;
 }
@@ -46,17 +49,17 @@ h1 {
 }
 
 .btn {
-    display: block;
+    display: block !important;
     margin: 15px 0;
     text-align: left;
-    background-color: goldenrod;
+    background-color:lawngreen;
     border: none;
     color: black;
     font-weight: 500;
 }
 
 .btn:hover {
-    background-color: darkorange;
+    background-color:lightgreen;
     color: black;
 }
 
@@ -69,7 +72,7 @@ h1 {
 }
 
 #initials:focus {
-    border: none;
+    border: none!important;
 }
 
 .margin {
@@ -81,5 +84,5 @@ h1 {
 }
 
 .highscore-btn {
-    display: inline;
+    display: inline!important;
 }
