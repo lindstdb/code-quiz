@@ -4,7 +4,6 @@ body {
 }
 
 .header {
-    margin-top: 0px;
     background-color:darkseagreen;
     padding: 15px 50px;
     font-weight: 700;
@@ -39,7 +38,7 @@ body {
 }
 
 .quiz-section {
-    margin-left: 600px;
+    margin-left: 280px;
     margin-top: 95px;
     display: none;
 }
