@@ -38,7 +38,7 @@ body {
 }
 
 .quiz-section {
-    margin-left: 280px;
+    margin-left: auto;
     margin-top: 95px;
     display: none;
 }
